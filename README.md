@@ -1,4 +1,4 @@
-# quillhub-ai
+# QuillHub
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-quillhub-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://quillhub.ai/
+QuillHub provides transcription services that turn audio and video recordings into searchable, timestamped text with speaker separation and summaries. Available via a web app, desktop client, and API/MCP, it supports up to 98 languages, files up to 5 GB, and offers free usage limits. The company emphasizes privacy: recordings are encrypted in transit and at rest, never used to train models, and can be deleted at any time. QuillHub is operated by Axevia Labs LLC in the US and by founder Timofey Zaytsev in Russia.
+
+**Areas:** Company · Transcription · AI · Audio · Video
+
+## QuillHub on APIs.io
+
+Everything profiled for QuillHub is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/quillhub-ai/](https://apis.io/providers/quillhub-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [QuillHub Account API](https://apis.io/apis/quillhub-ai/quillhub-ai-account-api/) — Key owner, point balance, and subscription.
+- [QuillHub AI Knowledge API](https://apis.io/apis/quillhub-ai/quillhub-ai-ai-knowledge-api/) — The AI Knowledge API from QuillHub — 46 operation(s) for ai knowledge.
+- [QuillHub Desktop API](https://apis.io/apis/quillhub-ai/quillhub-ai-desktop-api/) — Chunked WAV upload protocol for the desktop recorder. Start a session, upload 10-second WAV chunks directly to S3, extend the presigned-URL batch as needed,…
+- [QuillHub Public API](https://apis.io/apis/quillhub-ai/quillhub-ai-public-api/) — The Public API from QuillHub — 2 operation(s) for public.
+- [QuillHub Transcriptions API](https://apis.io/apis/quillhub-ai/quillhub-ai-transcriptions-api/) — Create, list, retrieve, and cancel transcription jobs. Language is auto-detected by default — pass `language` only when you need to override the detector.
+- [QuillHub Workspaces API](https://apis.io/apis/quillhub-ai/quillhub-ai-workspaces-api/) — The Workspaces API from QuillHub — 2 operation(s) for workspaces.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Quillhub Ai Webhooks](https://apis.io/asyncapis/quillhub-ai/quillhub-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [QuillHub Agentic Access](https://apis.io/agentic-access/quillhub-ai/quillhub-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Entitlement](https://apis.io/schemas/quillhub-ai/quillhub-ai-entitlement/)
+- [PublicTranscriptResponse](https://apis.io/schemas/quillhub-ai/quillhub-ai-public-transcript-response/)
+- [Transcription](https://apis.io/schemas/quillhub-ai/quillhub-ai-transcription/)
+- [TranscriptionCreateRequest](https://apis.io/schemas/quillhub-ai/quillhub-ai-transcription-create-request/)
+- [TranscriptionFormatResponse](https://apis.io/schemas/quillhub-ai/quillhub-ai-transcription-format-response/)
+- [WorkspacesResponse](https://apis.io/schemas/quillhub-ai/quillhub-ai-workspaces-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Quillhub Ai Context](https://apis.io/jsonld/quillhub-ai/quillhub-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [QuillHub API Rules](https://apis.io/rules/quillhub-ai/quillhub-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [QuillHub Authentication](https://apis.io/security/quillhub-ai/quillhub-ai-authentication/)
+- [QuillHub Domain Security](https://apis.io/security/quillhub-ai/quillhub-ai-domain-security/)
+- [QuillHub Trust Center](https://apis.io/security/quillhub-ai/quillhub-ai-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [QuillHub Plans Pricing](https://apis.io/plans/quillhub-ai/quillhub-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://quillhub.ai/)
+- [Documentation](https://quillhub.ai/en/docs)
+- [Getting started](https://quillhub.ai/en/docs/quickstart)
+- [API reference](https://quillhub.ai/llms.txt)
+- [Pricing](https://quillhub.ai/en/pricing)
+- [Support](https://quillhub.ai/en/help)
+- [Blog](https://quillhub.ai/en/blog)
+- [Security](https://quillhub.ai/en/security)
+- [Compliance](https://quillhub.ai/en/security)
+- [Terms of service](https://quillhub.ai/en/legal/terms)
+- [Privacy policy](https://quillhub.ai/en/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 63.3** — strong · rubric 0.27.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 64.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 75.8 |
+
+**Agent readiness 48.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/quillhub-ai/](https://apis.io/providers/quillhub-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for QuillHub: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/quillhub-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
